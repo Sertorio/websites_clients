@@ -1,0 +1,28 @@
+body{margin:0;padding:0;background:repeat-x #ebe8d9}
+
+/* main container with shadow box */
+#container {margin:0 auto;width:1182px;height:auto;box-shadow:1px 1px 4px 3px #747474; }
+
+img{border:0}
+.clear{clear:both}
+
+#panel-header-login {
+    text-align:right;
+    height: auto;
+    background-image:url(../image/presentation/colorimage.jpg);
+    background-repeat:repeat-x;
+    padding: 3px 10px 3px 10px;
+}
+
+#panel-header-login a {
+    color:#FFF;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    text-decoration:none;
+}
+
+
+
+
+
+         

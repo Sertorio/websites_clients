@@ -1,0 +1,126 @@
+
+#css_horizontal_menu{
+overflow:hidden;
+margin-top:16px;
+margin-bottom:13px;
+margin-left:0px;
+width:1100px;
+background-image:url(../image/mainmenubg.jpg);
+height:54px;
+box-shadow:1px  2px 5px #747474; 
+
+
+}
+
+/*2. the style of the links (html element <a>)*/
+#css_horizontal_menu a{
+display:block;
+float:left;
+border-left:1px dotted #009FAA;
+
+margin-top:5px;
+height:50px;
+padding-left:25px;
+text-align:left;
+padding-top:14px;
+padding-right:51px;
+padding-left:50px;
+font-family:arial;
+font-size:14px;
+font-weight:bold;
+text-decoration:none;
+color:#fff;
+
+
+
+}
+
+/*3. the css style on the hover state of the links*/
+#css_horizontal_menu a:hover{
+
+background-image:url(../image/menubg.jpg);
+background-repeat:repeat-x;
+
+
+}
+
+/* remove the left margin for the first link*/
+#css_horizontal_menu a.first{
+
+background-image:url(../image/menubg.jpg);
+background-repeat:repeat-x;
+
+}
+
+
+
+
+/* new menu css */
+
+#css_horizontal_menu_new{
+overflow:hidden;
+margin-top:-86px;
+margin-bottom:25px;
+margin-left:-20px;
+width:1100px;
+background-image:url(../image/mainmenubg3.jpg);
+height:47px;
+box-shadow:1px  2px 5px #747474; 
+
+
+}
+
+/*2. the style of the links (html element <a>)*/
+#css_horizontal_menu_new a{
+display:block;
+float:left;
+margin-top:4px;
+margin-left:10px;
+margin-right:10px;
+
+padding-right:61px;
+padding-left:30px;
+text-align:center;
+padding:8px;
+width:100%;
+
+
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:18px;
+
+text-decoration:none;
+color:#fff;
+}
+
+#css_horizontal_menu_new li{
+display:block;
+float:left;
+margin-top:4px;
+text-align:center;
+padding:8px;
+
+
+
+}
+
+
+
+/*3. the css style on the hover state of the links*/
+#css_horizontal_menu_new a:hover{
+
+background-image:url(../image/menubg3.jpg);
+color:#DADADA;
+-moz-border-radius: 10px;-webkit-border-radius: 10px;
+
+}
+
+/* remove the left margin for the first link*/
+#css_horizontal_menu_new a.first{
+background-image:url(../image/menubg3.jpg);
+color:#DADADA;
+width:100px;
+-moz-border-radius: 10px;-webkit-border-radius: 10px;
+
+}
+
+

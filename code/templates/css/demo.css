@@ -1,0 +1,16 @@
+/* Moving Boxes demo CSS */
+* { margin: 0; padding: 0; }
+body { font: 11px Helvetica, Arial, sans-serif; }
+#wrapperinner {}
+
+/* panel images */
+.mb-inside img { max-width: 98%; height:100%;}
+
+#slider-two .current img { /* height: 326px; */ }
+
+/* panel links */
+.mb-inside a { color: #333; text-decoration: none; border-bottom: 1px dotted #ccc; }
+.mb-inside a:hover { border-bottom: 1px solid #999; }
+
+
+

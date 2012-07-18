@@ -1,0 +1,414 @@
+body{height:100%;margin:0;padding:0;background-image:url(../image/bck-page.jpg); background-repeat:repeat;}
+html{height:100%}
+
+img{border:0}
+.clear{clear:both}
+#wrapper {position:relative;min-height:100%;width:1100px;margin:auto;background-color:#fff;background-position:top;
+/*box-shadow: 10px 10px 60px 10px #000;*/
+box-shadow:1px 1px 4px 3px #747474;padding:none;
+
+}
+#container {margin:0 auto;width:1100px;height:auto;}
+#headerlogin{text-align:right;padding-top:5px;padding-right:25px;
+         background-image:url(../image/presentation/colorimage.jpg);background-repeat:repeat-x;padding-bottom:5px;width:1075px;
+         box-shadow:0 0 2px 2px #747474;}
+
+/*#ltcontent {float:left;width:360px;margin-top:128px;margin-left:11px;}
+#rtcontent {float:right;width:660px;margin-top:-30px;margin-right:115px;}*/
+
+/*--------------------------- BODY-UPPER CSS -------------------------------------*/
+#bodyupper {float:left;width:100%;}
+/*Upper content details*/
+.upper1 {height:auto;background:#F0F0F0;float:left;width:auto;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;margin-top:12px;margin-left: 20px;}
+#upper2 {width:260px;background:#EEE;float:left;margin-left:24px;height:335px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;margin-top:12px; }
+
+
+/*--------------------------- BODY-MIDDLE CSS -------------------------------------*/
+#bodymiddle {float:left;width:100%;height:auto;margin-top:40px;}
+/*middle content details*/
+.middle1 {height:auto;background:#F0F0F0;width:680px;height:auto;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;margin-left:-700px;margin-top:12px;}
+#middle2 {width:310px;background:#EEE;margin-left:24px;margin-top:-355px;height:335px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc; }
+
+
+/*--------------------------- BODY-BOTTOM CSS -------------------------------------*/
+#bodybottom {float:left;width:100%;margin-top:10px;}
+/*bottom content details*/
+#video {float:left;width:auto;height:415px;background:#FFF;margin-left:20px;margin-top:12px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;}
+
+
+#features {margin-top:12px;float:right}
+#tranbox {float:left;margin-right:30px;width:310px;background:#EEE;height:250px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;}
+.tranhead {font:24px "Century Gothic", Century, "MS Serif";color:#3A9DBA;margin-left:10px;margin-top:5px;margin-bottom:-10px;}
+.trapost {color:#FF9F00;font:12px "Century Gothic", Century, "MS Serif";margin-left:10px;line-height:25px;font-weight:bold;}
+.tracontent {font:17px "Century Gothic",Century,"MS Serif";line-height:120%;color:#3A9DBA;margin-top:10px;line-height:20px;margin-left:10px;margin-right:15px;}
+
+
+#social {height:120px;background:#EEE;width:310px;margin-left:0px;margin-top:25px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;}
+#social img {margin-top:30px;margin-left:25px;margin-right:5px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish {margin-top:46px;font:14px Tahoma, Geneva, sans-serif;color:#5c3315;text-transform:uppercase}
+.head {font:58px Impact;color:#2A9FFF;text-shadow: 3px -1px #FFF;margin-top:-143px;width:100;}
+.tagln {margin-top:110px;font:12px Tahoma, Geneva, sans-serif;color:#5c3315;text-transform:uppercase;line-height:23px}
+.italics {font-style:italic;text-transform:none}
+#menulinks ul {list-style:none;margin-top:15px;height:40px;float:left;width:550px;margin-left:0;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+#menulinks li {float:left;margin-right:60px;text-align:center;background:#2B5E79;margin-left:-40px;text-transform:uppercase;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+.scrcast {width:152px;background:#FFF}
+#menulinks a {display:block;font:18px Tahoma, Geneva, sans-serif;color:#FFF;text-decoration:none;line-height:30px;padding:5px; }
+#menulinks a.active {display:block;color:#000;text-decoration:none;line-height:30px;background-color:#FF9F00;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+#menulinks a:hover {display:block;background:#FF9F00;text-decoration:none;color:#5c3315;text-decoration:none;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+.clear{clear:both}
+
+
+
+
+.dochead {background:#FF9F00;height:45px;font:24px Tahoma, Geneva, sans-serif;color:#FFF;width:485px;margin-left:-25px;box-shadow:8px 5px 8px 2px #727272;}
+.dochead span {margin-left:20px}
+.dhead {line-height:45px;text-shadow:2px 2px #000;}
+.post {color:#000;font:12px Tahoma, Geneva, sans-serif;line-height:30px;margin-left:15px;color:#553F55}
+.rtboxbg {background-position:center;height:7px;width:430px;margin-left:40px}
+
+
+
+/*green bubble*/
+.bubble {background:url(../image/bubble.png) no-repeat bottom right;height:39px;margin-right:15px;margin-top:65px}
+.bubble span {margin-right:15px;text-align:center;color:#FFF;font:12px Tahoma, Geneva, sans-serif;font-weight:bold;line-height:30px}
+.gap {margin-top:40px}
+.ltgap {margin-top:20px}
+
+
+#mostpop {width:310px;background:#EEE;margin-left:24px;margin-top:15px;height:auto;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;color:#3A9DBA;margin-bottom:23px;}
+
+
+#mostpoptable {width:299px;background:#EEE;margin-left:24px;margin-top:15px;height:auto;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;color:#3A9DBA;margin-bottom:23px;}
+
+
+
+/*left content box*/
+.lthead {font:18px "Century Gothic", Century, "MS Serif";font-weight:bold;color:#5c3315;line-height:50px;text-transform:uppercase;height:52px;border-bottom:1px dashed #b7b4a3;width:280px;margin-left:15px;}
+.tphead {margin-left:-15px}
+.ltdetail {font:14px "Century Gothic", Century, "MS Serif";font-weight:bold;color:#413e32;font-weight:bold;line-height:20px;margin-top:15px;width:240px;margin-left:15px}
+.link {width:280px;background:#999580;margin-top:15px;margin-left:15px;height:38px;text-align:center;font:20px "Century Gothic", Century, "MS Serif";color:#fff;text-transform:uppercase;line-height:35px}
+.ltposts ul {float:left;list-style:none}
+.ltposts li a,a:link {font:14px "Century Gothic", Century, "MS Serif";color:#413e32;line-height:30px;font-weight:bold}
+.ltposts li a:hover {font:14px "Century Gothic", Century, "MS Serif";color:#FF9F00;line-height:30px;font-weight:bold;text-decoration:underline}
+.rtposts ul {float:right;list-style:none;margin-right:74px;width:70px}
+.rtposts li a,a:link {font:14px Tahoma, Geneva, sans-serif;color:#413e32;line-height:30px;font-weight:bold}
+.rtposts li a:hover {font:14px Tahoma, Geneva, sans-serif;color:#413e32;line-height:30px;font-weight:bold;text-decoration:underline}
+
+#search {width:310px;height:54px;background:#EEE;margin-left:24px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;}
+#loginpopup {width:310px;height:50px;background:#EEE;margin-left:24px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;text-align:center;margin-top:15px;}
+
+.input {margin-left:15px;line-height:55px}
+.ltdetail ul {list-style:url(../image/feeds.jpg);width:310px}
+.ltdetail li a,a:link {font:14px Tahoma, Geneva, sans-serif;color:#413e32;font-weight:bold;text-decoration:none;line-height:30px}
+.ltdetail li a:hover {font:14px Tahoma, Geneva, sans-serif;color:#5c3315;text-decoration:underline;line-height:30px;font-weight:bold}
+#feeds {height:140px;background:#EEE;width:310px;margin-left:24px;margin-top:15px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;}
+
+
+
+
+.searchBut {border:1px solid #333;background:#999580}
+.searchBut:hover {border:1px solid #333;background:#ccc}
+.fleft {float:left}
+.fright {float:right}
+.fclear {clear:both}
+.inner_copy, .inner_copy a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+
+#footer {
+	bottom:0px;margin-top:30px;background-image:url(../image/presentation/ftr.jpg);font:"Century Gothic", Century, "MS Serif";width: 100%;height:50px;}
+.copy {margin-left:14px;float:left;font:12px Tahoma, Geneva, sans-serif;color:#fff;line-height:50px}
+ .copy a:hover {color:#FF9F00;}
+
+.flinks {float:right;line-height:50px;width:600px;text-align:right;margin-right:13px;}
+.flinks a,a:link {font:12px Tahoma, Geneva, sans-serif;color:#fff;text-decoration:none;}
+.flinks a:hover {font:12px Tahoma, Geneva, sans-serif;color:#FF9F00;text-decoration:underline}
+.separator {color:#FF9F00;margin:5px;}
+.textbox {width:190px;border:none;padding:2px;color:#444}
+
+
+/* Overall & panel width defined using css in MovingBoxes version 2.2.2+ */
+div#slider-two { width: 1000px; }
+div#slider-two > div { width: 360px; }
+
+
+/* Mask for background, by default is not display */
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+/* You can customize to your needs  */
+.login-popup{
+	display:none;
+	background: #F0F0F0;
+	padding: 10px; 	
+	border: 2px solid #3A9DBA;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #3A9DBA; /* CSS3 */
+        -moz-box-shadow: 0px 0px 20px #3A9DBA; /* Firefox */
+        -webkit-box-shadow: 0px 0px 20px #3A9DBA; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+        -moz-border-radius: 3px; /* Firefox */
+        -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+img.btn_close { 
+
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+fieldset { 
+	border:none; 
+}
+
+form.signin .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.signin .textbox span { 
+	display:block;
+}
+
+/* label properties-username,password   */
+form.signin p, form.signin span { 
+	color:#3A9DBA; 
+	font-size:14px;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif; 
+	line-height:30px;
+} 
+
+
+/* textbox properties-username,password   */
+form.signin .textbox input { 
+	background:#fff; 
+	border-bottom:1px solid #333;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	border-top:1px solid #000;
+	color:#FF9F00; 
+        border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+	font:13px Verdana, Geneva, sans-serif;
+	padding:6px 6px 4px;
+	width:242px;
+}
+
+form.signin input:-moz-placeholder { color:#FF9F00; }
+form.signin input::-webkit-input-placeholder { color:#FF9F00; text-shadow:0 0 2px #000;  }
+
+.button { 
+	background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+	background:  -o-linear-gradient(top, #f3f3f3, #dddddd);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+	border-color:#000; 
+	border-width:1px;
+        border-radius:4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+	color:#333;
+	cursor:pointer;
+	display:inline-block;
+	padding:6px 6px 4px;
+	margin-top:10px;
+	margin-left:20px;
+	font:12px; 
+	width:214px;
+}
+.button:hover { background:#ddd; }
+
+
+/*---------------------- slider -------------------------------------------*/
+
+.clear {
+	clear:both
+}
+
+#gallery {
+	position:relative;
+height:20px;
+	
+}
+	#gallery a {
+		float:left;
+		position:absolute;
+
+	}
+	
+	#gallery a img {
+		border:none;
+		height:305px;
+		padding-top:32px;
+
+	}
+	
+	#gallery a.show {
+		z-index:500;
+
+	}
+
+	#gallery .caption {
+		z-index:600; 
+		background-color:#000; 
+		color:#ffffff; 
+		height:100px; 
+		width:100%; 
+		position:absolute;
+		margin-top:237px;
+	}
+
+	#gallery .caption .content {
+		margin:5px
+	}
+	
+	#gallery .caption .content h3 {
+		margin:0;
+		padding:0;
+		color:#1DCCEF;
+	}
+	
+
+
+ 
+
+  /*this is what we want the div to look like
+    when it is not showing*/
+  div.loading-invisible{
+    /*make invisible*/
+    display:none;
+  }
+
+  /*this is what we want the div to look like
+    when it IS showing*/
+  div.loading-visible{
+    /*make visible*/
+    display:block;
+
+    /*position it at the very top-left corner*/
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    text-align:center;
+
+    /*in supporting browsers, make it
+      a little transparent*/
+    background:#000;
+    _background:none; /*this line removes the background in IE*/
+    opacity:.75;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+
+    /*set the padding, so that the content
+      of the div is centered vertically*/
+    padding-top:25%;
+  }
+
+
+/*  read more css  */
+
+.documentourteam {height:auto;background:#F0F0F0;width:1041px;margin-top:10px;border:#FFF solid 10px;box-shadow:2px 0px 7px 2px #cccccc;margin-left:20px;}
+.docheadourteam {background:#FF9F00;height:45px;font:24px Tahoma, Geneva, sans-serif;color:#FFF;width:485px;margin-left:-25px;box-shadow:8px 5px 8px 2px #727272;}
+.docheadourteam span {margin-left:20px}
+.dheadourteam {line-height:45px;text-shadow:2px 2px #000;}
+.postourteam {color:#000;font:12px Tahoma, Geneva, sans-serif;line-height:30px;margin-left:15px;color:#553F55}
+
+
+.dcontentourteam {font:16px  Tahoma, Geneva, sans-serif;color:#4DA0B3;margin-left:15px;margin-bottom:10px;
+line-height:20px;}
+.rtboxbgourteam {background-position:center;height:7px;width:430px;margin-left:40px}
+
+.teamMember { padding:10px; margin: 0 auto 10px; overflow: hidden; width: 930px;padding-top:30px;margin-left:30px;}
+.teamMember2 { padding:10px; margin: 0 auto 10px; overflow: hidden; width: 930px; margin-bottom:0px;}
+
+.teamMember img { float: left; margin: 10px; border: 2px solid #A0A0A4; }
+.teamMember2 img { float: right; border: 2px solid #A0A0A4; }
+
+.teamMemberRight { float: right; width: 795px;margin-top:10px;margin-bottom:50px; }
+.teamMemberRight2 { float: left; width: 795px;float:left;margin-left:10px;}
+
+
+
+.toggleMe { display: none;}
+.toggleMe2 { display: none; } /* makes sure you don't see it while loading page */
+
+
+
+
+/* image slider on products page */
+
+select, input, textarea {
+    font-size: 1em;
+  }
+  .example {
+    border: 1px solid #CCC;
+    background: #f2f2f2;
+    padding: 10px;
+  }
+  pre {
+    font-family: "Lucida Console", "Courier New", Verdana;
+    border: 1px solid #CCC;
+    background: #f2f2f2;
+    padding: 10px;
+  }
+   
+  #gallerypro {
+    padding: 30px;
+	margin-top:25px;
+	width:955px;
+	margin-left:42px;
+	background-image:url(../image/product_galley/images/bg_gallery.bmp);
+	
+  }
+  #descriptions {
+    position: relative;
+    height: 100px;
+    background: #DADBFC;
+    margin-top: 10px;
+    width: 640px;
+    padding: 10px;
+    overflow: hidden;
+	-moz-border-radius: 10px;-webkit-border-radius: 10px;
+  }
+    #descriptions .ad-image-description {
+      position: absolute;
+	  
+	  
+    }
+      #descriptions .ad-image-description .ad-description-title {
+        display: block;
+		
+      }
+
+
+
